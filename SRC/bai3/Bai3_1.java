@@ -14,7 +14,7 @@ public class Bai3_1 {
             }
             if(sum == S) {
 
-                System.out.println(left + " " + right+1);
+                System.out.println(left + " " + right);
                 return;
             }
         }
@@ -32,6 +32,9 @@ public class Bai3_1 {
             A[i] = sc.nextInt();
             sc.nextLine();
         }
-        e.findSubArray(A, n);
+        int k;
+        k = sc.nextInt();
+        sc.nextLine();
+        e.findSubArray(A, k);
     }
 }
